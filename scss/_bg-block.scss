@@ -1,0 +1,27 @@
+.bg-block {
+    background: url(/img/masthead.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 340px;
+    border-radius: 10px;
+    position: relative;
+
+    &__buttons {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        bottom: 20px;
+
+        button {
+            margin-top: 15px;
+            border: none;
+            background: #ffffff;
+            padding: 8px 25px;
+            border-radius: 30px;
+            font-size: 15px;
+        }
+    }
+}

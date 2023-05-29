@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  width: 100px;
+}
+header .links__link {
+  text-decoration: none;
+}
+header #burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: #676767;
+}
+
+.bg-block {
+  background: url(/img/masthead.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 340px;
+  border-radius: 10px;
+  position: relative;
+}
+.bg-block__buttons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  bottom: 20px;
+}
+.bg-block__buttons button {
+  margin-top: 15px;
+  border: none;
+  background: #ffffff;
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.trainer-block {
+  margin-top: 40px;
+}
+.trainer-block__title {
+  font-family: Raleway, sans-serif;
+  font-size: 65px;
+  line-height: 0.8;
+  margin: 60px 0 35px 0;
+  font-weight: 800;
+}
+.trainer-block__text {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.trainer-block button {
+  font-family: "Inter", sans-serif;
+  background: #ff9255;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.trainer-block__img-bottom {
+  display: block;
+  margin: 40px auto;
+}
+
+.manual-block__title {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 100px 0 50px 0;
+}
+.manual-block__manual-img {
+  width: 100%;
+}
+.manual-block__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+}
+.manual-block__list-item {
+  display: flex;
+  align-items: center;
+}
+.manual-block__list-item::before {
+  content: "";
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.manual-block__list-text {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 13.5px;
+  margin-left: 15px;
+}
+.manual-block__bg-img {
+  margin-top: 60px;
+  background: url(/img/welcome_tiles.jpg) no-repeat left top/cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.manual-block__bg-img__bg-time {
+  width: 100%;
+}
+
+.pay-block__service {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+.pay-block__priсe {
+  padding: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.pay-block__priсe-text {
+  font-family: Inter, sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+.pay-block__buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  text-align: center;
+}
+.pay-block__buttons-text {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 13.5px;
+  margin-bottom: 30px;
+}
+.pay-block__buttons-button {
+  padding: 15px 30px;
+  background: #ff9255;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.pay-block__buttons h3 {
+  font-family: Inter, sans-serif;
+  font-style: italic;
+  font-size: 13.5px;
+  font-weight: 300;
+  padding: 10px;
+}/*# sourceMappingURL=app.css.map */
